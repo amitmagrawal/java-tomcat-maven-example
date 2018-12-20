@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <!--<artifactId>java-tomcat-maven-example</artifactId>-->
- <artifactId>java-tomcat-maven-example_reliance</artifactId>
+ <artifactId>java-tomcat-maven-example_amitmagrawal</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Nissan CICD Pipeline View new</name>
