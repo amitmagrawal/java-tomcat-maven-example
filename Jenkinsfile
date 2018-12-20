@@ -1,7 +1,7 @@
 node{
       
       stage('SCM Checkout'){
-         git 'https://github.com/rajnikhattarrsinha/java-tomcat-maven-example'
+         git 'https://github.com/amitmagrawal/java-tomcat-maven-example'
       }
   
       stage('Mvn Build'){
