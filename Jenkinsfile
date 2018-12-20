@@ -16,14 +16,14 @@ node{
       }  
       
     stage('Build Docker Image'){
-         sh 'docker build -t rajnikhattarrsinha/javatomcatreliancedemo:2.0.0 .'
+         sh 'docker build -t amitmagrawal/javatomcatreliancedemo:2.0.0 .'
       }  
    
       stage('Publish Docker Image'){
          withCredentials([string(credentialsId: 'dockerpwd', variable: 'dockerPWD')]) {
-              sh "docker login -u rajnikhattarrsinha -p ${dockerPWD}"
+              sh "docker login -u amitmagrawal -p County24@"
          }
-        sh 'docker push rajnikhattarrsinha/javatomcatreliancedemo:2.0.0'
+        sh 'docker push amitmagrawal/javatomcatreliancedemo:2.0.0'
       }
 
    stage('Stop running containers'){        
